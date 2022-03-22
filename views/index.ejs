@@ -35,7 +35,7 @@
                 <h2>
                     CADASTRAR POKEMON!
                 </h2>
-                <form action="/crlh" method="post">
+                <form action="/crlh" method="POST">
                     <label for="nome">Nome: </label>
                     <input type="text" id = "nome" name = "nome">
 
@@ -57,7 +57,7 @@
                         ATUALIZAÇÃO!
                     </h2>
 
-                <form action="/update/<%= pokemon.id %>" method="post">
+                <form action="/update/<%= pokemon.id %>" method="POST">
                     <label for="nome">Nome: </label>
                     <input type="text" id = "nome" name = "nome" value ="<%= pokemon.nome%>">
 
